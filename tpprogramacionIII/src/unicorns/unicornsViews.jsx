@@ -39,7 +39,15 @@ function UnicornsView({
           <button type="submit">{editingId ? 'Actualizar' : 'Agregar'}</button>
         </form>
   
-        <h2>Unicornios Cargados</h2>
+        <h2>
+  Unicornios Cargados{" "}
+  <img
+    src="https://img.icons8.com/?size=100&id=jPIG37Bg8ACn&format=png&color=000000"
+    alt="Unicornio"
+    style={{ width: "24px", verticalAlign: "middle" }}
+  />
+</h2>
+
         <ul>
           {unicorns.map((u) => (
             <li key={u._id}>
